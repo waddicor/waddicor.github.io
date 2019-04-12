@@ -1,0 +1,49 @@
+/* stylesheet.css */
+
+body {
+    
+    background-color: #FFFF00;
+    margin: 2em 2em 2em 2em
+}
+p {
+    color: #0000FF;
+    font-size: 0,9em;
+font-family: 'Ubuntu',sans-serif;
+
+}
+table{
+    color: #0000FF;
+    font-size: 0,9em;
+font-family: 'Ubuntu',sans-serif;
+}
+section{
+    margin: 3em 3em 3em 3em;
+    width: 80%;
+}
+h1{
+    color: #0000FF;
+    margin: 0em 0em 1em 0em;
+    font-size: 3em;
+font-family: 'Ubuntu',sans-serif;
+text-align: center
+}
+header{
+    color: #0000FF;
+    margin: 0em 0em 0em 1em;
+    font-size: 1.2em;
+font-family: 'Ubuntu',sans-serif;
+}
+img{
+    border: 100px;
+    width: 40%;
+}
+h2{
+    color: #0000FF;
+    font-size: 1.5em;
+font-family: 'Ubuntu',sans-serif;
+}
+h4{
+    color: #0000FF;
+    font-size: 1em;
+font-family: 'Ubuntu',sans-serif;
+}

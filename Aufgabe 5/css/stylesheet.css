@@ -1,0 +1,46 @@
+/* stylesheet.css */
+
+main
+{
+    width: 60%;
+    font-family: 'Ubuntu',sans-serif;
+    text-align: center;
+    
+
+}
+
+h1
+{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    background-color: blue;
+    color: yellow;
+
+}
+
+aside{
+    width: 12%;
+    overflow: auto;
+
+}
+aside:hover{
+    position: relative;
+    bottom: 5pt; left: 5pt;
+    color: yellow;
+    background-color: blue;
+
+}
+
+footer{
+    width: 100%;
+    background-color: blue;
+    color: yellow;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+
+}
+a{
+    color: yellow;
+}

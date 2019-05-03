@@ -5,7 +5,9 @@ main
     width: 60%;
     font-family: 'Ubuntu',sans-serif;
     text-align: center;
-    
+    position: relative;
+    left: 25em;
+
 
 }
 
@@ -18,10 +20,19 @@ h1
     color: yellow;
 
 }
+h1:hover{
+    background-color: yellow;
+    color: blue;
+}
 
 aside{
     width: 12%;
+    padding: 0em 0em 212.5em 0em;
+    float: left;
     overflow: auto;
+    background-color: grey;
+
+    
 
 }
 aside:hover{
@@ -41,6 +52,15 @@ nav{
     font-family: 'Ubuntu',sans-serif;
 
 }
+li:hover{
+    font-size: 1.2em;
+}
 a{
     color: yellow;
+}
+table{
+    position: relative;
+    left: 20em;
+ 
+
 }

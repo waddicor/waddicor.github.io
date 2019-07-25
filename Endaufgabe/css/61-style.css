@@ -1,0 +1,54 @@
+header {
+    background-color: gray;
+    text-align: center;
+}
+
+body {
+	background-image: url("https://fullyloaded.pizza/wp-content/uploads/2016/08/2brown-wood-texture-and-background-1170x780.jpg");
+	width: 99%
+}
+
+#Ablage {
+    width: 183px;
+    height: 33%;
+	float: right;
+	border-radius: 5%;
+    margin-right: 15%;
+}
+
+#Deck {
+    width: 183px;
+    height: 33%;
+	float: left;
+	border-radius: 5%;
+    margin-left: 20.6%;
+}
+
+#Computer{
+    width: 100%;
+    height: 30%;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    
+}
+
+#Player {
+    width: 100%;
+    height: 28%;
+    float: left  ;
+    margin-top: 2%;
+}
+
+
+
+
+
+img {
+	width: 183px;
+	height: 263px;
+    border-radius: 10%;
+    box-shadow: 0 3px 10px black;
+    height: 90%;
+    image-orientation: from-image;
+    margin-left: 0.5%;
+}

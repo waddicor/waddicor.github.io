@@ -30,7 +30,7 @@ interface Card {
 
 
 //Funktionen
-function generateCards () { //Karten werden zu Beginn generiert und ins Deck getan
+function generateCards () { //Karten werden zu Beginn generiert und ins Deck gepushed
 
     let r1: Card = {
         cardColor : "rot",             
@@ -340,16 +340,16 @@ function computerPlay(){
 } 
 
 function playCard (clickedCard: number) {
-    if (Player[clickedCard].cardColor==Ablage[Ablage.length -1].cardColor||             //Checkt ob Karte laut Spielregeln legbar ist (entweder gleiche Farbe oder gleiche Zahl)
+    if (Player[clickedCard].cardColor==Ablage[Ablage.length -1].cardColor||             //guckt ob die Karte die vom Spieler geclickt wurde die gleiche Farbe oder gleiche Nummer wie Karte auf der Ablage hat. Wenn ja wird sie gespielt.
         Player[clickedCard].cardNumber==Ablage[Ablage.length -1].cardNumber){
 
     Ablage.push(Player[clickedCard]);
     Player.splice(clickedCard, 1);
     buildHTML();
-    if (Player.length==0){
+    if (Player.length==0){                              // Falls der Array der Spielerkarten gleich 0 ist hat er gewonnen und diese Benachrichtigung erscheint          
         alert("Congratulations! You won.");                          
     }
-    if (Computer.length==0){
+    if (Computer.length==0){                            // Falls der Array der Computerkarten gleich 0 ist der verloren und diese Benachrichtigung erscheint
         alert("Congratulations! You lost.");
     }
     computerPlay();

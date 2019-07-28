@@ -57,5 +57,14 @@ img {
     box-shadow: 0 3px 10px black;
     height: 90%;
     image-orientation: from-image;
-    margin-left: 0.5%;
+    margin-left: 0.7%;
+}
+
+#Deck img:hover {
+    cursor: pointer;
+}
+
+#Player img:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(255, 255, 255);
 }
